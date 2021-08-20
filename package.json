@@ -11,7 +11,7 @@
   "license": "ISC",
   "directus:extension": {
     "type": "display",
-    "path": "bookTest/extensions/displays/RelationDisplay/index.js",
+    "path": "dist/index.js",
     "source": "src/index.js",
     "host": "^9.0.0-rc.90",
     "hidden": false
