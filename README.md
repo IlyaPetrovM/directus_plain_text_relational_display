@@ -10,6 +10,8 @@ Displays collection items divided by commas, dots etc.
 3. open terminal
 4. run `npm i -D @directus/extension-sdk`
 5. run `npx directus-extension build`
+6. move `index.js` file from `dist` folder to `<your directus project>/extensions/displays/my-custom-display`
+7. Restart Directus and reload pages in browser
 
 
 # More info
