@@ -1,0 +1,25 @@
+{
+  "name": "custom_plain_text_relational_display",
+  "version": "0.1.0",
+  "description": "Displays collection items divided by commas, dots etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ilya Petrov",
+  "license": "ISC",
+  "directus:extension": {
+    "type": "display",
+    "path": "bookTest/extensions/displays/RelationDisplay/index.js",
+    "source": "src/index.js",
+    "host": "^9.0.0-rc.90",
+    "hidden": false
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@directus/extension-sdk": "^9.0.0-rc.90",
+    "@directus/sdk": "^9.0.0-rc.90",
+    "directus": "^9.0.0-rc.90"
+  }
+}
